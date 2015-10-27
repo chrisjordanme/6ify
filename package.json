@@ -1,0 +1,16 @@
+{
+  "name": "6ify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Jordan <cljordan1@gmail.com> (http://chrisljordan.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.29",
+    "gulp": "^3.9.0",
+    "jspm": "^0.16.13"
+  }
+}
