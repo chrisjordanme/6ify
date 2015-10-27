@@ -1,5 +1,5 @@
 # 6ify
-This is an ES6 seed project (and an oddly named one now that I think about it...) that uses gulp, babel, jspm and Browser Sync.
+This is an ES6 seed project (a poorly named one...) that uses gulp, babel, jspm and Browser Sync.
 
 This project assumes you already have Node and NPM installed on your system. The following steps will get you running from there...
 
