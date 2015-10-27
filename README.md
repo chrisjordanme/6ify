@@ -5,7 +5,7 @@ This project assumes you already have Node and NPM installed on your system. The
 
 1. First, install jspm CLI tools by installing jspm globally
     ```
-    npm install jspm -ga
+    npm install jspm -g
     ```
    
 2. Clone this project (either leave off the 'your-new-directory' part or name it something else)
