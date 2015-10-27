@@ -19,6 +19,7 @@ gulp.task('sayName', () => {
 
 
 gulp.task('serve', () => {
+
     browserSync({
         notify: false,
         port: 3000,
@@ -29,5 +30,14 @@ gulp.task('serve', () => {
             }
         }
     });
+
+    gulp.watch([
+        'app/*.html',
+        'app/scripts/**/*.js',
+        'app/images/**/*',
+        'app/polymerComponents/**/*.html',
+        '.tmp/fonts/**/*'
+    ]).on('change', reload);
+
     console.log('BrowserSync server started successfully...');
 });
